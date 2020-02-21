@@ -1,14 +1,14 @@
 
 <project default = "compile">
-<property name = "src.java.dir" location = "./src/najah/edu"/>
-<proerty name ="result.dir" location = "./target"/>
-<property name ="resilt.javaclasses.dir" location = "$(result.dir}/classes"/>
+ <property name = "src.java.dir" location = "./src"/>
+ <proerty name ="result.dir" location = "./target"/>
+ <property name ="resilt.javaclasses.dir" location = "$(result.dir}/classes"/>
 
-<target name ="compite">
-<mkdir dir ="${result.javaclasses.dir}"/>
-<javac srcdir =" $ { src.java.dir}" destdir ="${result.javaclasses.dir}" debug ="true" includeantruntime="false">
-</javac>
+  <target name ="compile">
+   <mkdir dir ="${result.javaclasses.dir}"/>
+   <javac srcdir =" $ { src.java.dir}" destdir ="${result.javaclasses.dir}" debug ="true" includeantruntime="false">
+   </javac>
 
 
-</target>
+  </target>
 </project>
