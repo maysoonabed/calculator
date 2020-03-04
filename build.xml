@@ -4,9 +4,9 @@
 
 -<project default="compile">
 
-<property location="./calc/src/najah/edu/calc" name="src.java.dir"/>
+<property location="./calc/src/najah/edu" name="src.java.dir"/>
 
-<property location="./calc/src/najah/edu/calcTest" name="src.test.dir"/>
+<property location="./calc/src/tests" name="src.test.dir"/>
 
 <property location="./target" name="result.dir"/>
 
