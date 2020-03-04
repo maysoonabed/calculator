@@ -1,8 +1,10 @@
-package najah.edu;
+package tests;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import najah.edu.calc;
 
 public class calcTest {
 
